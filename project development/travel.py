@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # --- MILESTONE 2: INITIALIZING THE MODEL ---
 # I have cleaned this line for you
-API_KEY = "AIzaSyDprWGZvi2ueFjVsw9LNDN7lt6Da4cFbyY"
+API_KEY = "Google API KEY HERE"
 genai.configure(api_key=API_KEY)
 
 # Using 'gemini-1.5-flash' for high compatibility
@@ -54,4 +54,5 @@ def main():
             st.error("Please provide a destination first.")
 
 if __name__ == "__main__":
+
     main()
